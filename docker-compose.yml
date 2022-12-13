@@ -5,7 +5,7 @@ services:
     build: ./frontend
     command: yarn dev
     ports:
-      - 8080:3000
+      - 3000:3000
     environment:
       - DEVELOPMENT_BASE_URL=
     volumes:
@@ -17,7 +17,7 @@ services:
     build: ./backend
     command: yarn start:dev
     ports:
-      - 8082:5000
+      - 5000:5000
     environment:
       - DATABASE_URL=mongodb+srv://tvapp:szszukeme54321@cluster0.rwoun.mongodb.net/realestate?retryWrites=true&w=majority&ssl=true
     volumes:
