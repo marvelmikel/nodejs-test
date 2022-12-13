@@ -1,5 +1,5 @@
 # nodejs-test
-fronted react.js and backend nest.js<br>
+fronted react.js(next.js) and backend nest.js<br>
 first clone the project from the repo<br>
 then cd into the root directory of the project on your terminal<br>
 run "docker compose up -d --build"<br>
